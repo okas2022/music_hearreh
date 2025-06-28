@@ -43,7 +43,7 @@ elif task_type == "일반 단어":
 else:
     sample = random.choice(training_sentences)
     st.markdown("**아래 문장을 소리 내어 읽어보세요:**")
-    st.image("brain_left_sentence.png", caption="좌반구 언어 통합영역 자극")
+    st.image("images/brain_left_basic.png", caption="좌뇌 기본 언어영역 자극")
     st.info(sample)
 
 if st.button("음성 평가 시뮬레이션"):
